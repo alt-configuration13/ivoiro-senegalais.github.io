@@ -1,0 +1,381 @@
+
+/* Styles pour le header */
+header {
+  background-color: #000080;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Styles pour la section hero */
+.hero {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://edukiya.com/wp-content/uploads/2020/05/University-of-Ghana-etudes-superieures-ghana.jpg');
+  background-size: cover;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  color: #333;
+  display: inline-block;
+  font-size: 18px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* Styles pour la section ufr */
+.ufr {
+  background-color: #f2f2f2;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.ufr h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.ufr ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ufr li {
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
+  width: 30%;
+}
+
+.ufr li:last-child {
+  margin-right: 0;
+}
+
+.ufr img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.ufr h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.ufr p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* Styles pour la section about */
+.about {
+  background-color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.about p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* Styles pour la section contact */
+.contact {
+  background-color: #f2f2f2;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.contact form {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+}
+
+.contact label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact input,
+.contact textarea {
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+.contact button {
+  background-color: #000080;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+/* Styles pour le footer */
+footer {
+  background-color: #000080;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+ 
+
+/* Styles pour la section testimonials */
+.testimonials {
+  background-color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.testimonials ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.testimonials li {
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
+  width: 30%;
+}
+
+.testimonials li:last-child {
+  margin-right: 0;
+}
+
+.testimonials img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.testimonials h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.testimonials p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.rev-slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+  }
+  
+  .rev-slider .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .rev-slider .slide {
+    position: relative;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .rev-slider .slide-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+  }
+  
+  .rev-slider .slide-text h3 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .rev-slider .slide-text p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .rev-slider .slide img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .rev-slider .slide:nth-child(1) {
+    opacity: 1;
+  }
+  
+  .rev-slider .slide:nth-child(2),
+  .rev-slider .slide:nth-child(3) {
+    opacity: 0;
+  }
+  
+  .rev-slider .slide.active {
+    opacity: 1;
+  }
+  
+  .rev-slider .slide.active ~ .slide {
+    opacity: 0;
+  }
+  
+  .rev-slider .slide.active ~ .slide:nth-child(2) {
+    opacity: 1;
+  }
+  
+  .rev-slider .slide.active ~ .slide:nth-child(3) {
+    opacity: 1;
+  }
+  
+  .rev-slider .slide.active ~ .slide:nth-child(3) .slide-text {
+    transform: translate(-50%, -150%);
+  }
+  
+  .rev-slider .slide.active ~ .slide:nth-child(2) .slide-text {
+    transform: translate(-50%, -50%);
+  }
+  
+  .rev-slider .slide.active .slide-text {
+    transform: translate(-50%, -50%);
+  }
+  
+  .rev-slider .slide.active ~ .slide:nth-child(1) .slide-text {
+    transform: translate(-50%, -150%);
+  }
+  
+  .rev-slider .slide.active ~ .slide:nth-child(1) {
+    opacity: 0;
+  }
+  
+  .rev-slider .slide.active ~ .slide:nth-child(2) img {
+    transform: translateX(-100%);
+  }
+  
+  .rev-slider .slide.active ~ .slide:nth-child(3) img {
+    transform: translateX(-200%);
+  }
+  
+  .rev-slider .slide.active img {
+    transform: translateX(0);
+  }
+  
+  .rev-slider .slide.active ~ .slide:nth-child(2) img,
+  .rev-slider .slide.active ~ .slide:nth-child(3) img {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .rev-slider .slide.active ~ .slide:nth-child(2) .slide-text,
+  .rev-slider .slide.active ~ .slide:nth-child(3) .slide-text {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .rev-slider .slide.active .slide-text {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .rev-slider .slide.active ~ .slide:nth-child(1) .slide-text {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .rev-slider .slide.active ~ .slide:nth-child(1),
+  .rev-slider .slide.active ~ .slide:nth-child(2),
+  .rev-slider .slide.active ~ .slide:nth-child(3) {
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .rev-slider .slide.active ~ .slide:nth-child(2) img,
+  .rev-slider .slide.active ~ .slide:nth-child(3) img {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .rev-slider .slide.active img {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .rev-slider .slide.active ~ .slide:nth-child(2) img,
+  .rev-slider .slide.active ~ .slide:nth-child(3) img {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .rev-slider .slide.active ~ .slide:nth-child(2) .slide-text,
+  .rev-slider .slide.active ~ .slide:nth-child(3) .slide-text {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .rev-slider .slide.active .slide-text {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .rev-slider .slide.active ~ .slide:nth-child(1) .slide-text {
+    transition: transform 0.5s ease-in-out;
+  }
